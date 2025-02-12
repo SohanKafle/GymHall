@@ -1,12 +1,15 @@
 @extends('layouts.master')
 @section('content')
 
-<div class="bg-cover bg-center bg-no-repeat h-96" style="background-image: url('images/gym.jpg')">
-    <div class="bg-black bg-opacity-30 ml-6 h-full flex justify-start">
-        
-        <h1 class="text-4xl mt-16 font-bold text-white">You only fail, When you stop trying!</h1>
+<div class="relative bg-cover bg-center bg-no-repeat min-h-[400px] sm:min-h-[500px] lg:min-h-[600px]" style="background-image: url('images/gym.jpg')">
+    <!-- Overlay for darkening the background -->
+    <div class="absolute inset-0 bg-black bg-opacity-30 flex justify-center items-center">
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-center px-6">
+            You only fail, When you stop trying!
+        </h1>
     </div>
 </div>
+
 
 <div class="mt-10 flex justify-between p-10">
     <img src="https://placehold.co/600x400" alt="gg">

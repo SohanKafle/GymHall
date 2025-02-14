@@ -18,6 +18,7 @@
         <p class="border-2 border-red-600 w-32"></p>
         <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates. Quisquam, voluptates.</p>
         <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates. Quisquam, voluptates.</p>
+        <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates. Quisquam, voluptates.</p>
         <a href="#" class="bg-red-500 hover:bg-red-600 text-white font-semibold p-2 rounded-lg">Learn more</a>
     </div>
 </div>

@@ -10,14 +10,12 @@
     </div>
 </div>
 
-
 <div class="mt-10 flex justify-between p-10">
     <img src="https://placehold.co/600x400" alt="gg">
     <div class="ml-10">
         <h1 class="text-3xl font-bold">Welcome to Gym Hall</h1>
         <p class="border-2 border-red-600 w-32"></p>
         <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates. Quisquam, voluptates.</p>
-        <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates. Quisquam, voluptates.</p>
         <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates. Quisquam, voluptates.</p>
         <a href="#" class="bg-red-500 hover:bg-red-600 text-white font-semibold p-2 rounded-lg">Learn more</a>
     </div>

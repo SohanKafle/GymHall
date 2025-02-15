@@ -7,9 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gym Hall</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg-gray-200">
+<body class="bg-gray-200 font-Rubik">
 
     <!-- Header Section -->
     <nav class="sticky z-50 top-0 flex justify-between items-center p-6 bg-black text-white border-b border-gray-800">
@@ -71,8 +72,8 @@
     </main>
 
     <!-- Footer Section -->
-    <footer class="bg-black text-white py-10">
-        <div class="max-w-screen-xl mx-auto w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-10">
+    <footer class="bg-black text-white">
+        <div class=" py-10 max-w-screen-xl mx-auto w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-10">
             <div class="mx-5 col-span-1">
                 <h1 class="text-2xl font-bold">Gym Hall</h1>
                 <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates. Quisquam,
@@ -97,7 +98,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-gray-900 text-white p-5 text-center">
+        <div class="bg-gray-900 text-white mt-5 p-2 text-center">
             <p>&copy; 2024 Gym Hall. All rights reserved.</p>
         </div>
     </footer>

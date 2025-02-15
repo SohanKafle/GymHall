@@ -1,12 +1,35 @@
 @extends('layouts.master')
 @section('content')
 
-<div class="relative bg-cover bg-center bg-no-repeat min-h-[400px] sm:min-h-[500px] lg:min-h-[600px]" style="background-image: url('images/gym.jpg')">
-    <!-- Overlay for darkening the background -->
-    <div class="absolute inset-0 bg-black bg-opacity-30 flex justify-center items-center">
-        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white text-center px-6">
-            You only fail, When you stop trying!
-        </h1>
+<div style="background-image:  linear-gradient(rgba(0, 0, 0, 0.776), rgba(69, 14, 14, 0.5)), url('images/gym.jpg')" class="bg-cover bg-center w-full">
+    <div class="text-white py-24 lg:py-36 xl:px-12 lg:px-8 sm:px-5 px-3">
+        <div class="xl:max-w-7xl w-full mx-auto">
+            <div>
+                <h3 class="font-bold uppercase">
+                    Welcome to FitZone Gym
+                </h3>
+                <h1 class="md:text-4xl sm:text-3xl text-2xl font-bold mt-6">
+                    Your Fitness Journey Starts Here
+                </h1>
+                <p class="mt-6 sm:text-base text-sm">
+                    At FitZone, we provide top-tier fitness equipment, personal training, and a motivating environment to help you achieve your fitness goals. <br class="lg:block hidden"> Whether you're looking to build strength, lose weight, or simply stay active, we’ve got you covered. Join us today!
+                </p>
+            </div>
+            <div class="mt-8 flex flex-wrap items-center gap-3">
+                <a href="#">
+                    <button class="rounded-md overflow-hidden">
+                        <div class="bg-red-600 py-2 px-8 relative">
+                            <div class="flex items-center gap-x-3 relative z-20">
+                                <i class="ri-phone-fill text-xl"></i>
+                                <span class="text-lg font-medium">Join Us Now</span>
+                            </div>
+                        </div>
+                    </button>
+                </a>
+            </div>
+           
+            
+        </div>
     </div>
 </div>
 
@@ -42,6 +65,7 @@
         </div>
     </div>  
 </div>
+
 
 
 @endsection

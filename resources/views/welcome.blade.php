@@ -20,8 +20,8 @@
                     <button class="rounded-md overflow-hidden">
                         <div class="bg-red-600 py-2 px-8 relative">
                             <div class="flex items-center gap-x-3 relative z-20">
-                                <i class="ri-phone-fill text-xl"></i>
-                                <span class="text-lg font-medium">Join Us Now</span>
+                                <i class="ri-user-add-fill text-xl"></i>
+                                <span class="text-lg font-medium">Join Us Now!</span>                                
                             </div>
                         </div>
                     </button>
@@ -32,7 +32,6 @@
         </div>
     </div>
 </div>
-
 <div class="mt-10 flex justify-between p-10">
     <img src="https://placehold.co/600x400" alt="gg">
     <div class="ml-10">

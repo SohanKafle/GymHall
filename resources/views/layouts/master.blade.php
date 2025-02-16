@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gym Hall</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap" rel="stylesheet">
 </head>
 
@@ -37,7 +38,7 @@
                     <li><a href="/contact" class="hover:text-red-500">CONTACT</a></li>
                 </ul>
                 <div class="bg-red-600 hover:bg-red-700 font-semibold text-white px-4 py-2 rounded-lg">
-                    <a href="/login">SIGN UP</a>
+                    <a href="/login">LOGIN</a>
                 </div>
             </div>
         </div>
@@ -53,7 +54,7 @@
             <li><a href="/contact" class="hover:text-red-500">CONTACT</a></li>
             <li>
                 <div class="bg-red-600 hover:bg-red-700 font-semibold text-white px-4 py-2 rounded-lg">
-                    <a href="/login">SIGN UP</a>
+                    <a href="/login">LOGIN</a>
                 </div>
             </li>
         </ul>

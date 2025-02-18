@@ -47,11 +47,11 @@
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="lg:hidden absolute top-16 left-0 w-full bg-black text-white hidden">
         <ul class="flex flex-col items-center gap-4 p-6">
-            <li><a href="/" class="hover:text-red-500">HOME</a></li>
-            <li><a href="/about" class="hover:text-red-500">ABOUT</a></li>
-            <li><a href="/services" class="hover:text-red-500">SERVICES</a></li>
-            <li><a href="/location" class="hover:text-red-500">LOCATIONS</a></li>
-            <li><a href="/contact" class="hover:text-red-500">CONTACT</a></li>
+            <li><a href="/" class="hover:text-red-500">Home</a></li>
+            <li><a href="/about" class="hover:text-red-500">About</a></li>
+            <li><a href="/services" class="hover:text-red-500">Services</a></li>
+            <li><a href="/location" class="hover:text-red-500">Locations</a></li>
+            <li><a href="/contact" class="hover:text-red-500">Contact</a></li>
             <li>
                 <div class="bg-red-600 hover:bg-red-700 font-semibold text-white px-4 py-2 rounded-lg">
                     <a href="/login">LOGIN</a>

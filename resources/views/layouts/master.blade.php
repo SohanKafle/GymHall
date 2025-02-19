@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gym Hall</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-<link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap" rel="stylesheet">
 </head>
 
 <body class="bg-gray-200 font-Rubik">
@@ -17,17 +17,19 @@
     <nav class="sticky z-50 top-0 flex justify-between items-center p-6 bg-black text-white border-b border-gray-800">
         <div class="max-w-screen-xl mx-auto w-full flex justify-between items-center">
             <h1 class="ml-5 font-bold text-lg">Gym Hall</h1>
-        
+
             <!-- Hamburger Menu for Small Screens -->
             <div class="lg:hidden flex items-center">
-                
+
                 <button id="menu-toggle" class="text-white hover:text-red-500">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
                 </button>
             </div>
-        
+
             <!-- Navigation Links -->
             <div class="hidden lg:flex items-center text-sm">
                 <ul class="flex gap-5 mr-5 font-semibold">
@@ -43,7 +45,7 @@
             </div>
         </div>
     </nav>
-    
+
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="lg:hidden absolute top-16 left-0 w-full bg-black text-white hidden">
         <ul class="flex flex-col items-center gap-4 p-6">
@@ -66,7 +68,7 @@
             mobileMenu.classList.toggle('hidden');
         });
     </script>
-    
+
     <!-- Main Content -->
     <main class="max-w-screen-xl mx-auto w-full">
         @yield('content')
@@ -77,7 +79,8 @@
         <div class=" py-10 max-w-screen-xl mx-auto w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-10">
             <div class="mx-5 col-span-1">
                 <h1 class="text-2xl font-bold">Gym Hall</h1>
-                <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates. Quisquam,
+                <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.
+                    Quisquam,
                     voluptates.</p>
             </div>
             <div class="col-span-1">

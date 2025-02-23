@@ -12,13 +12,13 @@
                         Your Fitness Journey Starts Here
                     </h1>
                     <p class="mt-6 sm:text-base text-sm">
-                        At FitZone, we provide top-tier fitness equipment, personal training, and a motivating environment
+                        At FitZone, we provide top-tier fitness equipment, personal training, and a motivating <br> environment
                         to help you achieve your fitness goals. <br class="lg:block hidden"> Whether you're looking to build
-                        strength, lose weight, or simply stay active, we’ve got you covered. Join us today!
+                        strength, lose weight, or simply stay active, we’ve got you covered.
                     </p>
                 </div>
                 <div class="mt-8 flex flex-wrap items-center gap-3">
-                    <a href="/login">
+                    <a href="/register">
                         <button class="rounded-md overflow-hidden">
                             <div class="bg-red-600 py-2 px-8 relative">
                                 <div class="flex items-center gap-x-3 relative z-20">
@@ -34,10 +34,11 @@
             </div>
         </div>
     </div>
+
     <div class="mt-10 flex justify-between p-10">
         <img src="https://placehold.co/600x400" alt="gg">
         <div class="ml-10">
-            <h1 class="text-3xl font-bold">Welcome to Gym Hall</h1>
+            <h1 class="text-3xl font-bold">Welcome to Fitzone Gym</h1>
             <p class="border-2 border-red-600 w-32"></p>
             <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates. Quisquam,
                 voluptates.</p>

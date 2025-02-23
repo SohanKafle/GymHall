@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gym Hall</title>
+    <title>Fitzone Gym</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap" rel="stylesheet">
@@ -13,10 +13,14 @@
 
 <body class="bg-gray-200 font-Rubik">
 
+    <div class="flex font-semibold ml-3 gap-4 p-2">
+        <h1>Fitzonegym@gmail.com</h1>
+        <h1>9810011123</h1>
+    </div>
     <!-- Header Section -->
     <nav class="sticky z-50 top-0 flex justify-between items-center p-6 bg-black text-white border-b border-gray-800">
         <div class="max-w-screen-xl mx-auto w-full flex justify-between items-center">
-            <h1 class="ml-5 font-bold text-lg">Gym Hall</h1>
+            <h1 class="ml-5 font-bold text-lg text-blue-500">Fitzone Gym</h1>
 
             <!-- Hamburger Menu for Small Screens -->
             <div class="lg:hidden flex items-center">
@@ -76,16 +80,16 @@
 
     <!-- Footer Section -->
     <footer class="bg-black text-white">
-        <div class=" py-10 max-w-screen-xl mx-auto w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-10">
+        <div class=" py-10 max-w-screen-xl mx-auto w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
             <div class="mx-5 col-span-1">
-                <h1 class="text-2xl font-bold">Gym Hall</h1>
+                <h1 class="text-xl font-bold">Fitzone Gym</h1>
                 <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.
                     Quisquam,
                     voluptates.</p>
             </div>
             <div class="col-span-1">
-                <h1 class="text-2xl font-bold">Quick Links</h1>
-                <ul class="mt-5">
+                <h1 class="text-xl font-bold">Quick Links</h1>
+                <ul class="mt-5 ml-4 gap-2">
                     <li><a href="#" class="hover:text-red-500">Home</a></li>
                     <li><a href="#" class="hover:text-red-500">About</a></li>
                     <li><a href="#" class="hover:text-red-500">Services</a></li>
@@ -94,7 +98,7 @@
                 </ul>
             </div>
             <div class="col-span-1">
-                <h1 class="text-2xl font-bold">Contact Us</h1>
+                <h1 class="text-xl font-bold">Follow Us</h1>
                 <div class="flex space-x-4 mt-5">
                     <i class="ri-facebook-fill text-2xl hover:text-red-500"></i>
                     <i class="ri-twitter-fill text-2xl hover:text-red-500"></i>
@@ -103,7 +107,7 @@
             </div>
         </div>
         <div class="bg-gray-900 text-white mt-5 p-2 text-center">
-            <p>&copy; 2024 Gym Hall. All rights reserved.</p>
+            <p>&copy; 2024 Fitzone Gym. All rights reserved.</p>
         </div>
     </footer>
 

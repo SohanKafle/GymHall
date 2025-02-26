@@ -90,8 +90,8 @@
             <div class="col-span-1">
                 <h1 class="text-xl font-bold">Quick Links</h1>
                 <ul class="mt-5 ml-4 gap-2">
-                    <li><a href="#" class="hover:text-red-500">Home</a></li>
-                    <li><a href="#" class="hover:text-red-500">About</a></li>
+                    <li><a href="/" class="hover:text-red-500">Home</a></li>
+                    <li><a href="/about" class="hover:text-red-500">About</a></li>
                     <li><a href="#" class="hover:text-red-500">Services</a></li>
                     <li><a href="#" class="hover:text-red-500">Locations</a></li>
                     <li><a href="#" class="hover:text-red-500">Contact</a></li>

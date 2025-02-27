@@ -49,7 +49,6 @@
             </div>
         </div>
     </nav>
-
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="lg:hidden absolute top-16 left-0 w-full bg-black text-white hidden">
         <ul class="flex flex-col items-center gap-4 p-6">
